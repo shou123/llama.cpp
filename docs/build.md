@@ -145,7 +145,7 @@ We also have a [guide](./backend/CUDA-FEDORA.md) for setting up CUDA toolkit in 
 
 ### Compilation
 ```bash
-cmake -B build -DGGML_CUDA=ON
+cmake -B build -DGGML_CUDA=ON -DLLAMA_CURL=OFF
 cmake --build build --config Release
 ```
 
